@@ -1,0 +1,9 @@
+def es_palindromo(palabra):
+    return palabra.lower() == palabra.lower()[::-1]
+
+# Ejemplo de uso
+palabra = "mudum"
+if es_palindromo(palabra):
+    print(f"{palabra} es un palíndromo")
+else:
+    print(f"{palabra} no es un palíndromo")

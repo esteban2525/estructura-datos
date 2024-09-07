@@ -14,6 +14,6 @@ print("Fin del programa.")
 edad = int(input("Introduce tu edad: "))
 nombre = input("Introduce tu nombre: ")
 
-print("Hola", nombre, "tienes", edad, "años.") 
+print("Hola", nombre, "tienes", edad, "años.")
 
-                  
+      

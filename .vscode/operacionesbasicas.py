@@ -23,9 +23,9 @@ def operacion_basica(num1, num2, operacion):
 
 #uso
 print(factorial(5))
-print(operacion_basica(10, 3, 'suma'))  
+print(operacion_basica(34,4, 'suma'))  
 print(operacion_basica(5, 3, 'resta'))  
-print(operacion_basica(5, 3, 'multiplicacion'))  
-print(operacion_basica(30, 2, 'division'))  
+print(operacion_basica(23, 23, 'multiplicacion'))  
+print(operacion_basica(45, 0, 'division'))  
     
 
