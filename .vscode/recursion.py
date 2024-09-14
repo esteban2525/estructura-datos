@@ -1,4 +1,4 @@
-
+#punto1
 
 class Vehiculo:
     def __init__(self, marca:str, combustible:str):
@@ -13,3 +13,10 @@ class Vehiculo:
 carro = Vehiculo("Toyota", "Corriente") 
 print(carro)
 print(type(carro))
+
+#punto2
+motocicleta = moto()
+mi_carro = ()
+
+class Moto(Vehiculo):
+    def__-int__(self,)

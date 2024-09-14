@@ -69,7 +69,7 @@ def main():
                 print(f"\nMomento de inercia en Ix: {ix:.4f}")
                 print(f"Momento de inercia en Iy: {iy:.4f}")
             else:
-                print("Opción no válida. Intente de nuevo.")
+                print("Opción no válida. Digite un número del 1 al 7.")
         except ValueError:
             print("Por favor, ingrese un número válido.")
         except Exception as e:
