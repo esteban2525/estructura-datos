@@ -39,9 +39,10 @@ class ListaEnlazada:
 
 # Ejemplo de uso
 zoo = ListaEnlazada()
-zoo.agregar_animal(Animal("Aguilucha", 5, "Águila"))
-zoo.agregar_animal(Animal("Panterita", 3, "Pantera"))
-zoo.agregar_animal(Animal("Vacita", 2, "Vaca"))
+zoo.agregar_animal(Animal("Águila", 3, "Accipitriformes"))
+zoo.agregar_animal(Animal("Pantera", 4, "Carnivoro"))
+zoo.agregar_animal(Animal("Vaca", 6, "Mamifero"))
 
 print("\nAnimales en la lista:")
 zoo.mostrar_animales()
+    
